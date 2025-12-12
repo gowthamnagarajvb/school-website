@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admissions - Discovery National School</title>
+    <link rel="icon" href="images/school_logo.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="inner-pages.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="home.html" style="text-decoration: none; color: inherit;">
+                    <div class="logo-img-placeholder">
+                        <img src="images/school_logo.png" alt="Discovery National School Logo" style="height: 60px;">
+                        <div class="logo-text">
+                            <span class="brand-name">Discovery National School</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="academics.html">Academics</a></li>
+                    <li><a href="admissions.html" class="active">Admission</a></li>
+                    <li><a href="campus.html">Campus</a></li>
+                </ul>
+                <div class="header-social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=61555794665257"><i
+                            class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/dns.gundur/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <a href="#enquiry-form" class="btn-enquiry">Enquiry Now <i class="fa-solid fa-arrow-right"></i></a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Admissions Hero & Enquiry Form -->
+    <section class="admissions-hero-section">
+        <div class="container admissions-hero-container">
+            <div class="admissions-hero-text">
+                <span class="admission-tag">Admissions</span>
+                <h1 class="hero-title">Admission Open <span class="highlight-year">2026-27</span></h1>
+                <h2 class="hero-subtitle">Admissions at Discovery National School</h2>
+                <p class="hero-desc">
+                    Discovery National School adheres to the Montessori educational philosophy, emphasizing
+                    child-centered, hands-on learning experiences. We provide a prepared environment where children
+                    explore and learn at their own pace, fostering independence and holistic growth.
+                </p>
+                <div class="hero-badges">
+                    <div class="badge-item">
+                        <i class="fa-solid fa-award"></i>
+                        <span>Montessori Philosophy</span>
+                    </div>
+                    <div class="badge-item">
+                        <i class="fa-solid fa-book-open-reader"></i>
+                        <span>Holistic Development</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="admissions-form-wrapper">
+                <div class="enquiry-form-card">
+                    <h2 class="form-header">Admission Enquiry</h2>
+                    <p class="form-sub-header">2026-2027</p>
+                    <form class="enquiry-form">
+                        <div class="form-group">
+                            <input type="text" id="student-name" name="student_name" placeholder="Student Name*"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="parent-name" name="parent_name" placeholder="Parent Name*" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="mobile" name="mobile" placeholder="Mobile" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Email Id" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="school-select" name="school" required>
+                                <option value="" disabled selected>Select School</option>
+                                <option value="Discovery National School">Discovery National School</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select id="board" name="board" required>
+                                <option value="" disabled selected>Select Board</option>
+                                <option value="CBSE">CBSE</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select id="class-select" name="class" required>
+                                <option value="" disabled selected>Select Class</option>
+                                <option value="Nursery">Nursery</option>
+                                <option value="LKG">LKG</option>
+                                <option value="UKG">UKG</option>
+                                <option value="Grade 1">Grade 1</option>
+                                <option value="Grade 2">Grade 2</option>
+                                <option value="Grade 3">Grade 3</option>
+                                <option value="Grade 4">Grade 4</option>
+                                <option value="Grade 5">Grade 5</option>
+                                <option value="Grade 6">Grade 6</option>
+                            </select>
+                        </div>
+
+                        <div class="form-footer">
+                            <label class="checkbox-container">
+                                <input type="checkbox" checked>
+                                <span class="checkmark"></span>
+                                <span class="consent-text">By clicking on Submit, I give consent for receiving marketing
+                                    communications</span>
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn-enquire-submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admission Process Steps -->
+    <section class="process-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Admission <span class="highlight-text">Open</span></h2>
+                <p class="section-desc">
+                    We understand the importance of convenience and comfort, hence, we have kept our school admission
+                    process quite simple.
+                    Here are the steps you need to follow to get your child enrolled in our international schools.
+                </p>
+                <a href="#" class="btn-enroll">Enroll Now</a>
+            </div>
+
+            <div class="process-steps-grid">
+                <!-- Step 1 -->
+                <div class="process-step-card">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Counsellor Interaction</h3>
+                        <p class="step-desc">
+                            Book an exclusive online counselling session with one of our experts and discover vital
+                            facts about our institute.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="process-step-card">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Collect Prospectus & Brochure</h3>
+                        <p class="step-desc">
+                            Following this, get our school prospectus and brochure to understand the educational
+                            facilities we offer for your child.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="process-step-card">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Document Submission</h3>
+                        <p class="step-desc">
+                            E-mail the admission form and the necessary documents mentioned on our form for an effective
+                            & smooth onboarding process.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="process-step-card">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Child Skill Assessment Session</h3>
+                        <p class="step-desc">
+                            Ensure to get your child enrolled for our Child Skill Assessment Session which will help us
+                            understand your child’s unique requirements & needs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Document Details Section -->
+    <section class="documents-section">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Document <span class="highlight-text">Details</span></h2>
+
+            <div class="documents-grid">
+                <div class="document-card blue-card">
+                    <div class="doc-icon"><i class="fa-solid fa-clipboard-list"></i></div>
+                    <h3 class="doc-title">Admission Form</h3>
+                    <p class="doc-desc">You can download the admission form from our website. Fill it, scan it and
+                        submit it in just a few clicks.</p>
+                </div>
+
+                <div class="document-card white-card">
+                    <div class="doc-icon"><i class="fa-solid fa-house-chimney"></i></div>
+                    <h3 class="doc-title">Residence Proof</h3>
+                    <p class="doc-desc">You can submit any of these – Electricity Bill, Driver’s License, Aadhar Card or
+                        PAN Card.</p>
+                </div>
+
+                <div class="document-card blue-card">
+                    <div class="doc-icon"><i class="fa-solid fa-images"></i></div>
+                    <h3 class="doc-title">2 Passport Sizes Photos</h3>
+                    <p class="doc-desc">Please submit two recent passport size photos of your child.</p>
+                </div>
+
+                <div class="document-card white-card">
+                    <div class="doc-icon"><i class="fa-solid fa-certificate"></i></div>
+                    <h3 class="doc-title">School Leaving Certificate</h3>
+                    <p class="doc-desc">If your child has moved from another school, then please submit the school
+                        leaving certificate!</p>
+                </div>
+
+                <div class="document-card blue-card full-width-card">
+                    <div class="doc-icon"><i class="fa-solid fa-notes-medical"></i></div>
+                    <h3 class="doc-title">Immunisation Record</h3>
+                    <p class="doc-desc">Please submit your child’s medical history and the record of vaccination and
+                        blood type for medical emergencies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title text-center">FAQ’s</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3 class="faq-question">What is the admission procedure?</h3>
+                    <p class="faq-answer">The admission process begins with booking an online counselling session with
+                        an expert followed by collecting the school prospectus and brochure, then submitting the
+                        admission form. Finally, enrol your child for the Skill Assessment Session to evaluate their
+                        individual needs.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">What are the school timings?</h3>
+                    <p class="faq-answer">Please contact the school administration for the specific timings for each
+                        grade.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">What is the fee structure?</h3>
+                    <p class="faq-answer">Our fee structure is designed to be transparent. Please visit the campus or
+                        contact us for the detailed fee schedule.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">Which curriculum or board do you follow?</h3>
+                    <p class="faq-answer">We follow both CBSE and ICSE curriculums, providing a comprehensive
+                        educational experience.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">Which documents are required for seeking admission?</h3>
+                    <p class="faq-answer">Required documents include Admission Form, Residence Proof, Passport Size
+                        Photos, School Leaving Certificate, and Immunisation Record.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">Are transport facilities available?</h3>
+                    <p class="faq-answer">Yes, we provide safe and reliable transport facilities covering major routes.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="custom-shape-divider-top-footer">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+
+        <div class="container footer-content">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <img src="images/school_logo.png" alt="Discovery National School Logo"
+                            style="height: 50px; width: 50px; border-radius: 50%;">
+                        <div class="logo-text">
+                            <span class="brand-name">Discovery National School</span>
+                        </div>
+                    </div>
+                    <p class="footer-desc">
+                        Shaping young minds through holistic education to thrive in a dynamic world.
+                    </p>
+                </div>
+
+                <div class="footer-col">
+                    <h3 class="footer-heading">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="home.html#about-us">About Us</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="campus.html">Campus</a></li>
+                        <li><a href="home.html#gallery">Gallery</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3 class="footer-heading">Explore</h3>
+                    <ul class="footer-links">
+                        <li><a href="home.html#vision-mission">Vision & Mission</a></li>
+                        <li><a href="home.html#early-years">Early Years</a></li>
+                        <li><a href="campus.html#virtual-tour">Virtual Tour</a></li>
+                        <li><a href="admissions.html#enquiry-form">Enquiry</a></li>
+                        <li><a href="campus.html#location">Location</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3 class="footer-heading">Contact Us</h3>
+                    <div class="contact-info">
+                        <p><strong>Location:</strong>
+                            <a href="https://www.google.com/maps/search/?api=1&query=No+95%2F2+Gundur+village%2C+Virgo+Nagar+post+Bidarahalli%2C+Hobli%2C+Bangalore+560049%2C+Karnataka"
+                                target="_blank" style="color: inherit; text-decoration: none;">
+                                No 95/2 Gundur village, Virgo Nagar post Bidarahalli, Hobli, Bangalore 560049,
+                                Karnataka.
+                            </a>
+                            <br>
+                        </p>
+                        <p><strong>Email Address:</strong>
+                            <a href="mailto:dns.gundur@gmail.com">dns.gundur@gmail.com</a> <br>
+                        </p>
+                        <p><strong>Phone No:</strong>
+                            <a href="tel:+919611644399">+91 9611644399</a> <br>
+                            <a href="tel:+919611654699">+91 9611654699</a>
+                        </p>
+                    </div>
+                    <div class="footer-map-widget">
+                        <a href="https://maps.app.goo.gl/zVpzUBUXuVa1wTvf9" target="_blank"
+                            class="map-clickable-overlay" aria-label="Open in Google Maps"></a>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.388096372656!2d77.70996437507716!3d13.01091298730811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae10500e9a0029%3A0x69603e336335750d!2sDiscovery%20National%20School!5e0!3m2!1sen!2sin!4v1709637452365!5m2!1sen!2sin"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="footer-divider">
+        <div class="footer-bar">
+            <div class="footer-bar-left">
+                <p class="footer-copy">© Copyright 2025 Discovery National School. All Rights Reserved.</p>
+            </div>
+            <div class="footer-bar-right">
+                <a href="https://www.facebook.com/profile.php?id=61555794665257" aria-label="Facebook"><i
+                        class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/dns.gundur/" aria-label="Instagram"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/919611644399" class="whatsapp-float">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
